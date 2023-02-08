@@ -1,0 +1,1 @@
+# -Inheritance-task-1-square-rechangle
