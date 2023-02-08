@@ -1,0 +1,42 @@
+//========== User's Code Starts Here ==========
+//Write the code Below
+class Shape 
+{
+    printShape()
+    {
+        console.log("This is shape");
+    }
+}
+class Rectangle extends Shape
+{
+    print()
+    {
+        console.log("This is rectangular shape");
+    }
+}
+class Circle extends Shape 
+{
+    print()
+    {
+        console.log("This is circular shape");
+    }
+}
+class Square extends Rectangle
+{
+    printSquare()
+    {
+        console.log("Square is rectangle");
+    }
+}
+
+//Do Not change the Below  Code
+
+
+
+var x = new Square();
+x.printSquare();
+x.printShape();
+x.print();
+var y= new Circle();
+y.print();
+y.printShape();
